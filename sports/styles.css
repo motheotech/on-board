@@ -1,0 +1,68 @@
+/* Apply styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Style headings */
+h2, h3, h5 {
+    color: #333;
+    margin: 20px 0;
+}
+
+/* Style the form */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form labels and input fields */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+/* Style table headers */
+th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Style table cells */
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Apply specific styles to the "Date" and "Candidate Signature" labels and inputs */
+h5 + label,
+h5 + input {
+    font-weight: bold;
+}
+
+/* Add spacing between form sections */
+h3, h5 {
+    margin-top: 20px;
+}

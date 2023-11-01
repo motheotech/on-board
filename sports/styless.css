@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blue; /* Replace with actual background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color:yellow; /* Replace with actual login background color */
+    text-align: center;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-container img {
+    max-width: 400px;
+    height: auto;
+}
+
+.login-container h2 {
+    color: black; /* Replace with actual text color */
+    font-size: 24px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #8a9112;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(29, 29, 121); /* Replace with actual button color */
+    color: #06ba06;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
